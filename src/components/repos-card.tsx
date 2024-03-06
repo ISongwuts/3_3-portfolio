@@ -4,7 +4,7 @@ import ScrollArea from "./scroll-area"
 const ReposCard = () => {
     const repos = useFetch({ url: 'https://api.github.com/users/ISongwuts/repos' })
     return (
-        <div className="xl:col-span-4 max-xl:col-span-10 border-2 shadow-md p-5 flex flex-col justify-center">
+        <div className="xl:col-span-4 min-[0px]:col-span-10 border-2 shadow-md p-5 flex flex-col justify-center">
             <span className="text-2xl font-bold">My Repository</span>
             {repos && <ScrollArea>
                 <ul className="flex flex-col gap-3">

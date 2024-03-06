@@ -15,5 +15,5 @@
 }
 
 body, html{
-    @apply w-[100vw] h-[100vh]
+    @apply w-[100vw] h-[100vh] overflow-x-hidden
 }

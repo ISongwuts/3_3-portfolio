@@ -16,7 +16,7 @@ const ProfileCard = () => {
           <ul className='flex gap-6 justify-center'>
             {
               profileData.keyInfo.map((key: string, index: number) => (
-                <li key={index} className='flex flex-col gap-2 p-3 border rounded-md hover:border-2 hover:border-black'>
+                <li key={index} className='flex flex-col gap-2 p-3 border rounded-md hover:border-2 '>
                   <span className='text-xl'>{githubInfo[key.toLowerCase()]}</span>
                   <span>{key}</span>
                 </li>
@@ -25,6 +25,7 @@ const ProfileCard = () => {
 
           </ul>}
       </div>
+      <a href="https://github.com/ISongwuts" target="_blank" className='mt-4 p-4 bg-slate-600 hover:bg-slate-800 rounded-md text-white font-bold'>Github</a>
     </div>
   )
 }
