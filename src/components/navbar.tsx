@@ -1,8 +1,6 @@
 import { navbarList } from "../data/navbar-list"
 
-type Props = {}
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
 
     return (
         <nav className="w-full flex justify-around p-5 border-2 shadow-md">

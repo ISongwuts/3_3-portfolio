@@ -6,21 +6,24 @@ import Navbar from "./components/navbar"
 import ProfileCard from "./components/profile-card"
 import ReposCard from "./components/repos-card"
 import Footer from "./components/footer"
+import FollowersCard from "./components/followers-card"
+import SkillCard from "./components/skill-card"
 
 function App() {
   return (
     <>
       <Container>
           <Navbar />
-          <main className="flex flex-col gap-3">
+          <main className="flex flex-col gap-4 px-3">
             <Grid>
               <ProfileCard />
               <AboutCard />
+              <SkillCard />
             </Grid>
             <Grid>
               <CalendarCard />
               <ReposCard />
-              <ReposCard />
+              <FollowersCard />
             </Grid>
           </main>
           <Footer />

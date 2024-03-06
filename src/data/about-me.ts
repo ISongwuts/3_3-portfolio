@@ -5,35 +5,11 @@ export const stepperData = [
     },
     {
         school: 'Ubonratchathani Technical College',
-        gpax: 'N / A'
+        gpax: '3.61'
     },
     {
         school: 'Narinukul School',
-        gpax: 'N / A'
-    },
-    {
-        school: 'Rajamangala University of Technology Isan',
-        gpax: 'N / A'
-    },
-    {
-        school: 'Ubonratchathani Technical College',
-        gpax: 'N / A'
-    },
-    {
-        school: 'Narinukul School',
-        gpax: 'N / A'
-    },
-    {
-        school: 'Rajamangala University of Technology Isan',
-        gpax: 'N / A'
-    },
-    {
-        school: 'Ubonratchathani Technical College',
-        gpax: 'N / A'
-    },
-    {
-        school: 'Narinukul School',
-        gpax: 'N / A'
+        gpax: '3'
     },
 ]
 

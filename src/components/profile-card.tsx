@@ -6,7 +6,7 @@ import useFetch from '../libs/hooks/useFetch'
 const ProfileCard = () => {
   const githubInfo = useFetch({ url: 'https://api.github.com/users/ISongwuts' })
   return (
-    <div className='col-span-3 border-2 shadow-md p-5 flex flex-col justify-center items-center'>
+    <div className='col-span-3 max-[1250px]:col-span-10 border-2 shadow-md p-5 flex flex-col justify-center items-center'>
       <img className='rounded-full w-[25%]' src={ProfileImage} alt="Profile Image" />
       <div className='text-center flex flex-col gap-4'>
         <span className='text-3xl font-bold'>{profileData.name}</span>

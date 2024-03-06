@@ -5,9 +5,9 @@ import { aboutMe } from '../data/about-me'
 
 const AboutCard = () => {
     return (
-        <div className='col-span-6 grid grid-cols-3 border-2 text-center shadow-md p-5 gap-5'>
+        <div className='xl:col-span-6 min-[0px]:col-span-10 xl:flex max-xl:flex-col w-full border-2 shadow-md p-5 gap-5'>
             <div className='col-span-2 flex flex-col gap-5 p-5 border'>
-                <span className='text-2xl font-bold'>About Me <i>XD</i></span>
+                <span className='text-2xl font-bold'>About Me</span>
                 <ScrollArea>
                     <div className='flex flex-wrap gap-3'>
                         {
@@ -22,12 +22,11 @@ const AboutCard = () => {
                     </ScrollArea>
             </div>
             <div className='col-span-1 flex flex-col gap-5 p-5 border hover:border-black'>
-                <span className='text-2xl font-bold'>My Graduate <i>UwU</i></span>
+                <span className='text-2xl font-bold text-center'>My Graduate</span>
                 <ScrollArea>
                     <HistoryStepper />
                 </ScrollArea>
             </div>
-            <i className='col-span-3 text-center'><q>Both can scroll!!!! {'>_<'}</q></i>
         </div>
     )
 }
